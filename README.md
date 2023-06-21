@@ -1,7 +1,7 @@
 # 03 JavaScript: Password Generator
 
 ## Description
-Passwords are important to protect sensitive information on websites that we use. Everyone needs a strong, random password to prevent unwanted access to sites used everyday. A password generator is one way to accomplish this. 
+Passwords are important to protect sensitive information on websites that we use. Everyone needs a strong, random password to prevent unwanted access to sites used everyday. A password generator is one way to accomplish this. Strong passwords will include uppercase and lowercase letters, numbers, and special characters. They will also be between 8 and 128 characters long. Combining all of these elements together will result in a strong, random password that is less likely to be guessed by an unfamiliar user. 
 
 ## Usage
 
