@@ -15,4 +15,4 @@ An example of the page:
 ![Special Characters Selection](./Assets/Special.png)
 ![Numbers Selection](./Assets/Numbers.png)
 
-Link to deployed application: [Javascript Password Generator]()
+Link to deployed application: [Javascript Password Generator](https://cordovamonica.github.io/javascript-password-generator/)
