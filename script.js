@@ -32,18 +32,18 @@ var generatePassword = function() {
 
 //created prompt box to enter character length of password
 let length = prompt("Please choose a length between 8 and 128");
-if (length <=8 && length >=128) {
+console.log("Password Length " + length)
+if (length < 8 && length > 128) {
   alert("Choose a length between 8 and 128");
-}
-
-
+} else 
 //creates random output of the types of characters in password
-var randomItem = upperCaseChar[Math.floor(Math.random() * upperCaseChar.length)];
-console.log(randomItem);
-var randomItem = lowerCaseChar[Math.floor(Math.random() * lowerCaseChar.length)];
-console.log(randomItem);
-var randomItem = specialChar[Math.floor(Math.random() * specialChar.length)];
-console.log(randomItem);
-var randomItem = numbers[Math.floor(Math.random() * numbers.length)];
-console.log(randomItem);
+{ upper = upperCaseChar[Math.floor(Math.random() * upperCaseChar.length)];
+console.log(upper);
+ lower = lowerCaseChar[Math.floor(Math.random() * lowerCaseChar.length)];
+console.log(lower);
+ special = specialChar[Math.floor(Math.random() * specialChar.length)];
+console.log(special);
+ number = numbers[Math.floor(Math.random() * numbers.length)];
+console.log(number);
+} 
 
