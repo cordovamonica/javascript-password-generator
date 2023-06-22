@@ -46,4 +46,3 @@ console.log(special);
  number = numbers[Math.floor(Math.random() * numbers.length)];
 console.log(number);
 } 
-
